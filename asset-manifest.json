@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lineblog/static/css/main.203767d0.css",
-    "main.js": "/lineblog/static/js/main.03f76e24.js",
-    "static/js/787.cda612ba.chunk.js": "/lineblog/static/js/787.cda612ba.chunk.js",
-    "index.html": "/lineblog/index.html",
-    "main.203767d0.css.map": "/lineblog/static/css/main.203767d0.css.map",
-    "main.03f76e24.js.map": "/lineblog/static/js/main.03f76e24.js.map",
-    "787.cda612ba.chunk.js.map": "/lineblog/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/blogline/static/css/main.203767d0.css",
+    "main.js": "/blogline/static/js/main.f4104390.js",
+    "static/js/787.cda612ba.chunk.js": "/blogline/static/js/787.cda612ba.chunk.js",
+    "index.html": "/blogline/index.html",
+    "main.203767d0.css.map": "/blogline/static/css/main.203767d0.css.map",
+    "main.f4104390.js.map": "/blogline/static/js/main.f4104390.js.map",
+    "787.cda612ba.chunk.js.map": "/blogline/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.203767d0.css",
-    "static/js/main.03f76e24.js"
+    "static/js/main.f4104390.js"
   ]
 }
