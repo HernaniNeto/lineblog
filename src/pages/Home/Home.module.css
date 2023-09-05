@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .search_form {
@@ -37,11 +38,13 @@
     width: 80%; /* Reduz a largura do formulário */
     flex-direction: column; /* Alinha verticalmente os elementos do formulário */
     align-items: center;
+    overflow-x: hidden;
   }
 
   .search_form input {
     margin-right: 0; /* Remove a margem direita dos inputs */
     margin-bottom: 10px; /* Adiciona margem inferior para separar os inputs */
     width: 100%;
+    overflow-x: hidden;
   }
 }
