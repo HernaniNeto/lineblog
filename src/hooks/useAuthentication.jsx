@@ -1,14 +1,12 @@
-import { db } from "../firebase/config";
-
 import {
   getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   updateProfile,
-  signOut
-} from 'firebase/auth'
+  signOut,
+} from "firebase/auth";
 
-import {useState, useEffect} from 'react'
+import { useState, useEffect } from "react";
 
 export const useAuthentication = () => {
   const [error, setError] = useState(null);
@@ -62,14 +60,12 @@ export const useAuthentication = () => {
     setLoading(false);
   };
 
-  // logout - sign out
   const logout = () => {
     checkIfIsCancelled();
 
     signOut(auth);
   };
 
-  // login - sign in
   const login = async (data) => {
     checkIfIsCancelled();
 

@@ -1,3 +1,4 @@
+/* Estilos para telas maiores */
 .home {
   display: flex;
   flex-direction: column;
@@ -28,4 +29,19 @@
 
 .noposts a {
   padding: 10px 25px;
+}
+
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+@media screen and (max-width: 768px) {
+  .search_form {
+    width: 80%; /* Reduz a largura do formulário */
+    flex-direction: column; /* Alinha verticalmente os elementos do formulário */
+    align-items: center;
+  }
+
+  .search_form input {
+    margin-right: 0; /* Remove a margem direita dos inputs */
+    margin-bottom: 10px; /* Adiciona margem inferior para separar os inputs */
+    width: 100%;
+  }
 }

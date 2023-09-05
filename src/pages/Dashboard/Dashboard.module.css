@@ -1,3 +1,4 @@
+/* Estilos para telas maiores */
 .dashboard {
   text-align: center;
   display: flex;
@@ -56,4 +57,28 @@
   height: 30px;
   width: 100px;
   font-size: 0.7em;
+}
+
+/* Estilos para telas menores (celulares) */
+@media screen and (max-width: 768px) {
+  .dashboard h2 {
+    font-size: 1.8em;
+  }
+
+  .dashboard p {
+    font-size: 0.9em;
+  }
+
+  .post_header,
+  .post_row {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .post_row button,
+  .post_row a {
+    height: 25px;
+    width: 80px;
+    font-size: 0.6em;
+  }
 }
